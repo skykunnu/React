@@ -11,7 +11,7 @@ import App from './App.jsx'
 //   )
 // }
 
-/* The above MyApp() at the end of the day gets converted into below format which is tree structure and objects.
+/* The above MyApp() at the end of the day gets converted into below format which is a tree structure and objects.
 
 // The below Element is created by myself which is fine but the key value or props  made by myself will not work in react. So to cure this problem.
 // there is a method called React.createElement.

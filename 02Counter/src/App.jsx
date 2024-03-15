@@ -6,7 +6,7 @@ function App() {
   let [counter,setCounter] =useState(0) // Behind the scene the counter is behaving like let counter only.
   // And setCounter is a method which will control / responsible for the updation of counter variable.
   
-// let counter=0;
+// Initialy the value of counter will be 0 as we have passed 0 to useState.
 
 const addValue=()=>{
 if(counter <22){
@@ -23,8 +23,7 @@ const DecreaseValue=()=>{
  else{
   setCounter(0);
  }
- 
-  }
+}
 
 
   return (
