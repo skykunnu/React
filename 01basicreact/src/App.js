@@ -1,5 +1,5 @@
 // App is just a function that returns a HTML. 
-// With the help of JS we are able to write HTML--> Meaning we got programming capabilities in html which helps in building complex UI.
+// With the help of JSX we are able to write HTML--> Meaning we got programming capabilities in html which helps in building complex UI.
 
 import Chai from "./Coffee";
 
