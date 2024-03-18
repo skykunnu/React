@@ -3,8 +3,8 @@ import React,{useEffect,useState} from 'react';
 const MyComponent=()=>{
     const [count,setcount]=useState(0);
 
-// When the component gets mounted , the function inside useEffect gets executed.
-// When the component gets unmounted, the return function inside useEffect gets executed. 
+// Whenever the component gets mounted , the function inside useEffect gets executed.
+// Whenever the component gets unmounted, the return function inside useEffect gets executed. 
 useEffect(()=>{
     console.log('My Component is Mounting...');
 
