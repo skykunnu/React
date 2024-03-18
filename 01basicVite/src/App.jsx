@@ -7,7 +7,7 @@ const username="To Jaipur,India" // declare a new variable
     /*
     You cannot write h1, p and furthermore tags in jsx.
     According to jsx rule you can only return one element.
-    So what you can do is wrap all other elements into single empty div element.
+    So what you can do is wrap all other elements into single empty div element or fragments.
 */
     // <h1></h1> 
     // <p></p>
