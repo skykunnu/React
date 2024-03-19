@@ -5,7 +5,7 @@ const Timer=()=>{
     const [time,setTime]=useState(0);
 
     
-// As we re-render, first time Mounted statement will be executed and thereafter ,first the return function will be executed and then SetInterval function will be executed. 
+// As we re-render, first time Mounted statement will be executed and thereafter , the return function will be executed and then again mounted statement will be executed. 
  useEffect(()=>{
     //Mounted
     const timer=setInterval(()=>setTime(time+1),1000);
