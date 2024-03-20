@@ -16,12 +16,13 @@ const addValue=()=>{
  However to solve this issue, we can utilize the functional form of setState that accepts callback in it. 
  When you access previous state through setState, React gaurantess that this function will recieve the latest state value as an argument
   this ensures that you're always working with the most up-to-date state, regardless of how react batches state updates.  
-*/
 
-// setCounter(counter+1);
-// setCounter(counter+1);
-// setCounter(counter+1);
-// setCounter(counter+1);
+  After Setting prevCounter and clicking addValue btn the counter value would be from 0 to 4.  
+  */
+// setCounter(counter+1)--> setCounter((prevCounter)=>prevCounter+1);
+// setCounter(counter+1)--> setCounter((prevCounter)=>prevCounter+1);
+// setCounter(counter+1)--> setCounter((prevCounter)=>prevCounter+1);
+// setCounter(counter+1)--> setCounter((prevCounter)=>prevCounter+1);
 }
 const removeValue=()=>{
   if(counter>0)
