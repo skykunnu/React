@@ -9,8 +9,19 @@ const [counter,setCounter]=useState(0) // It is a hook used to change the state 
 
 //let counter=0;
 const addValue=()=>{
+  setCounter(counter+1);
+/* Below is an Interview question asked in react dev interview. 
+  Q-> what will be the value of counter on clicking add value btn. 
+ Ans-> Since setCounter is an asynchronous function, React may batch multiple state updates together for performance reasons.
+ However to solve this issue, we can utilize the functional form of setState that accepts callback in it. 
+ When you access previous state through setState, React gaurantess that this function will recieve the latest state value as an argument
+  this ensures that you're always working with the most up-to-date state, regardless of how react batches state updates.  
+*/
 
-setCounter(counter+1);
+// setCounter(counter+1);
+// setCounter(counter+1);
+// setCounter(counter+1);
+// setCounter(counter+1);
 }
 const removeValue=()=>{
   if(counter>0)
