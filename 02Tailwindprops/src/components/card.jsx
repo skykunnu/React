@@ -1,8 +1,7 @@
+import React from "react";
 
-
-function Card(props) { // The use of props is to make component reusable.
-  console.log("props",props);
-  
+function Card({username,btn="Visit Me"}) { // "Visit Me is a default value for btn, so if btn is not defined in any card component, the default value will be printed out."  
+  // The use of props is to make component reusable. For shortcut purpose we directly destructure it with username from App.jsx file.  
   return (
   
     <div className="relative h-[400px] w-[300px] rounded-md">
@@ -13,12 +12,12 @@ function Card(props) { // The use of props is to make component reusable.
     />
     <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
     <div className="absolute bottom-4 left-4 text-left">
-      <h1 className="text-lg font-semibold text-white">Shakira</h1>
+      <h1 className="text-lg font-semibold text-white">{username}</h1>  {/* here we have defined variable username from another component*/}  
       <p className="mt-2 text-sm text-gray-300">
         The Pop Singer of 20th Century. 
       </p>
       <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
-        View Profile →
+        {btn} → 
       </button>
     </div>
    
