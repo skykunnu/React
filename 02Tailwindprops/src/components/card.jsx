@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function Card() { // The use of props is
   return (
