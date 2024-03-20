@@ -17,7 +17,7 @@ const addValue=()=>{
  When you access previous state through setState, React gaurantess that this function will recieve the latest state value as an argument
   this ensures that you're always working with the most up-to-date state, regardless of how react batches state updates.  
 
-  After Setting prevCounter and clicking addValue btn the counter value would be from 0 to 4.  
+  After Setting prevCounter and clicking addValue btn the counter value would be from 0 to 4. Not like the previous counter value from 0 to 1 on 1st click just like a normal click.  
   */
 // setCounter(counter+1)--> setCounter((prevCounter)=>prevCounter+1);
 // setCounter(counter+1)--> setCounter((prevCounter)=>prevCounter+1);
