@@ -1,6 +1,8 @@
 
 
-function Card() { // The use of props is
+function Card(props) { // The use of props is to make component reusable.
+  console.log("props",props);
+  
   return (
   
     <div className="relative h-[400px] w-[300px] rounded-md">
