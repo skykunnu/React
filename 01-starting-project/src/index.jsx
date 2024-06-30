@@ -1,6 +1,7 @@
-// This index.jsx is the main entry point of our react app, since 
-// it is the first file to be loaded by the html file. 
-// it's in this place where react app boots up
+/* This index.jsx is the main entry point of our react app, since 
+it is the first file to be loaded by the html file. 
+ it's in this place where react app boots up
+ */
 
 import ReactDOM from "react-dom/client"; // this is special react dom library
 // which in the end belongs to overall react library, which ultimately renders this app component
